@@ -8,6 +8,18 @@ Simple micro blogging yang bisa nge-Mpritt (post tweet), show mpritts, show mpri
 
 
 # API Endpoints:
+Mpritter Endpoints:
 | Route | HTTP | Description |
 | ----- | ---- | ----------- |
-|/api/mpritt/| 
+| /api/mpritt/ | GET | Menampilkan mpritts user yang sudah login |
+| /api/mpritt/ | POST | Post mpritt |
+| /api/mpritt/?hastags | GET | Menampilkan mpritts berdasarkan # (hashtags) |
+| /api/mpritt/:id | DELETE | Menghapus mpritt berdasarkan id mpritt-nya |
+
+User Endpoints:
+| Route | HTTP | Description |
+| ----- | ---- | ----------- |
+| /api/user/ | GET | Menampilkan halaman login/register |
+| /api/user/ | POST | Register/login account user |
+| /api/user/edit/:id | PUT | Update user profile |
+
