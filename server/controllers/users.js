@@ -72,6 +72,7 @@ class UserController {
   
   static editUser (req, res) {
     
+    // User.findById()
   }
 }
 
