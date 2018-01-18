@@ -17,11 +17,6 @@ Mpritter Endpoints:
 |/api/mpritt/?hastags|GET|Menampilkan mpritts berdasarkan # (hashtags)|
 |/api/mpritt/:id|DELETE|Menghapus mpritt berdasarkan id mpritt-nya|
 
-| Route        | HTTP          | Description  |
-| ------------- |:-------------:| -----:|
-| /api/mpritt/      | GET | Menampilkan mpritts user yang sudah login |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 User Endpoints:
 
