@@ -20,6 +20,7 @@ User Endpoints:
 | Route | HTTP | Description |
 | ----- | ---- | ----------- |
 |/api/user/|GET|Menampilkan halaman login/register|
-|/api/user/|POST|Register/login account user|
+|/api/user/register|POST|Register account user|
+|/api/user/login|POST|Login account user|
 |/api/user/edit/:id|PUT|Update user profile berdasarkan id nya|
 

@@ -1,12 +1,15 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/mpritter', { useMongoClient: true });
+mongoose.connect('mongodb://localhost/mpritter');
 mongoose.Promise = global.Promise
 const Schema = mongoose.Schema;
 
 
 const mprittSchema = new Schema({
   content: String,
-  createdAt: new Date(),
+  createdAt: {
+    type: Date,
+    default: Date.now
+  },
   uid: {
     type: Schema.Types.ObjectId,
     ref: 'User'
