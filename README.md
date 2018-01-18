@@ -9,6 +9,7 @@ Simple micro blogging yang bisa nge-Mpritt (post tweet), show mpritts, show mpri
 
 # API Endpoints:
 Mpritter Endpoints:
+
 | Route | HTTP | Description |
 | ----- |:----:| -----------:|
 |/api/mpritt/|GET|Menampilkan mpritts user yang sudah login|
@@ -16,7 +17,14 @@ Mpritter Endpoints:
 |/api/mpritt/?hastags|GET|Menampilkan mpritts berdasarkan # (hashtags)|
 |/api/mpritt/:id|DELETE|Menghapus mpritt berdasarkan id mpritt-nya|
 
+| Route        | HTTP          | Description  |
+| ------------- |:-------------:| -----:|
+| /api/mpritt/      | GET | Menampilkan mpritts user yang sudah login |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 User Endpoints:
+
 | Route | HTTP | Description |
 | ----- |:----:| -----------:|
 |/api/user/|GET|Menampilkan halaman login/register|
