@@ -4,7 +4,7 @@ class MprittController {
   static createMpritt (req,res) {
     let input = {
       content: req.body.content,
-      uid: req.headers.userToken
+      
       
     }
   }
