@@ -5,7 +5,8 @@ A simple micro blogging app
 Simple micro blogging yang bisa nge-Mpritt (post tweet), show mpritts, show mpritts by # (hashtags), & delete mpritts.
 
 # How to run:
-
+run client and server with 'npm run dev'
+type in your browser 'http://localhost:8080/#/'
 
 # API Endpoints:
 Mpritter Endpoints:
